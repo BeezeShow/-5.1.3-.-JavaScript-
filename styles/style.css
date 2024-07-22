@@ -38,7 +38,7 @@ h2 {
 }
 .swiper-slide__content {
   height: 72px;
-  width: 240px;
+  width: 100%;
   border: 1px solid #eaeaea;
   border-radius: 5px;
   justify-content: space-between;
@@ -94,7 +94,7 @@ h2 {
     display: block !important;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1120px) {
   .swiper-slide--config {
     flex-basis: 20%;
   }
